@@ -1,0 +1,299 @@
+/* ここから下に記載していく */
+body{
+    font-size: 16px;
+    color:#222222;
+    
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.h4{
+    font-size: 18px;
+
+}
+
+
+/* header */
+.header-logo{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-item{
+    color: #fff;
+    padding: 50px 0 50px 50px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+
+/* maintitleセクション*/
+.maintitle-area{
+    position: relative;
+}
+
+.maintitle1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.h1{
+    font-size: 45px;
+    color:#fff;
+    margin: 0 0 30px;
+    font-weight: bold;
+}
+
+.h2{
+    font-size: 30px;
+    color:#fff;
+}
+
+/* aboutセクション */
+.about-area{
+    margin: 60px auto 60px;
+    text-align: center;
+}
+
+.about-title{
+    color: #ffd61a;
+    margin: 0 0 30px;
+}
+.about1{ margin: 0 0 60px;}
+.about2{ margin: 0 0 20px;}
+.about3{ margin: 0 0 40px;}
+.about4{ margin: 0 0 80px;}
+
+.about-images{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.about-image{
+    width: 25%;
+}
+
+/* courseセクション */
+
+.course-title{margin: 0 0 30px;}
+.course-text{margin: 0 0 60px;}
+.course-summary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto 60px;
+}
+
+.course-image{
+    max-width: 600px;
+    height: auto;
+}
+
+.course-detail{
+    background-color: #fafafa;
+    width: 600px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+}
+
+.course-script{
+    text-align: left;
+    margin: 0 0 0 50px;
+    width: 480px;
+}
+
+.h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 40px;
+
+}
+
+.knowledge{
+    margin: 0 0 0 70px;
+    padding: 0 0 0 50px;
+}
+
+/* newsセクション */
+.news-title1{
+    color: #ffd61a;
+    margin: 0 0 30px;
+}
+
+.news-title2{
+    margin: 0 0 60px;
+}
+
+.news-topic{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 60px;
+}
+.news-topics{
+    width: 33.333%;
+    margin: 0 15px;
+}
+
+.news-image{ margin: 0 0 30px;}
+
+.date{
+    margin: 0 0 24px;
+    text-align: left;
+}
+
+.news1{text-align: left;}
+
+.button{
+    display: block;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color: #fff;
+    width: 300px;
+    margin: 0 auto 60px;
+    padding: 21px 0;
+    border: unset;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color:red;
+    cursor: pointer;}
+
+/* accessセクション */
+.access-area{
+    background-color: #fafafa;
+    padding: 60px 0 45px;
+}
+
+.access-title1{
+    margin: 0 auto 30px;
+}
+.access-title2{
+    margin: 0 auto 60px;
+}
+
+iframe{
+    width: 1200px;
+    margin: 0 auto 45px;
+}
+
+.access-inner{
+    margin: 0 auto;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.access-category{
+    width: 170px;
+    height: 50px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.access-info{
+    width: 380px;
+    height: 50px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+/* contactセクション */
+
+form{margin: 0 0 140px;}
+
+.contact-area{
+    margin: 0 auto 70px;
+    padding: 60px 0 0;
+}
+
+.contact-title1{
+    margin: 0 0 30px;
+}
+.contact-title2{
+    margin: 0 0 60px;
+}
+
+.contact-text1{
+    margin: 0 0 30px;
+}
+
+.form-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto 30px;
+}
+
+.form-category{
+    width: 240px;
+    margin: 8px 64px 0 16px;
+    text-align: left;
+}
+
+.form-parts{
+    font-size: 16px;
+    border: solid ;
+    border-color: #bfbfbf;
+    border-width: 1px;
+    width: 400px;
+    margin: 8px;
+    padding: 2px 0;
+}
+
+.form-parts.select{
+    margin: 26px 8px;
+}
+
+.form-parts.check{
+    border: unset;
+}
+.checkbox{
+    display: block;
+    text-align: left;
+    margin: 12px 0;
+    width: 390px;
+}
+input[type*="checkbox"]{
+    margin: 0 10px 0 0;
+}
+
+/* footer */
+
+.copyrights{
+    display: block;
+    background-color: #707070;
+    color: #fff;
+    margin: 0 auto;
+    padding: 30px 0;
+}
